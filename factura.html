@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura Proforma</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="factura-contenedor">
+        <h1>Factura Proforma</h1>
+
+        <table class="tabla-empresa">
+            <thead>
+                <tr>
+                    <th colspan="2">Datos de la Empresa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>ValleTech Soluciones Tecnológicas</td>
+                </tr>
+                <tr>
+                    <td>Dirección:</td>
+                    <td>Av. Ilaló S2-150 y Río Curaray, Conocoto, Valle de los Chillos, Quito, Ecuador.</td>
+                </tr>
+                <tr>
+                    <td>RUC:</td>
+                    <td>1791234567001</td>
+                </tr>
+                <tr>
+                    <td>Contacto:</td>
+                    <td>ventas.valletech@email.ec / (02) 286-5555 / 0987654321 (WhatsApp)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="tabla-cliente">
+            <thead>
+                <tr>
+                    <th colspan="2">Datos del Cliente</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Steven Díaz</td>
+                </tr>
+                <tr>
+                    <td>Cédula/RUC:</td>
+                    <td>1719876543</td>
+                </tr>
+                <tr>
+                    <td>Dirección:</td>
+                    <td>Calle de los Geranios E10-55 y Av. Amazonas, Quito, Ecuador.</td>
+                </tr>
+                <tr>
+                    <td>Contacto:</td>
+                    <td>steven.diaz.cliente@email.com / 0991234560</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="tabla-productos">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>LAP-XYZ-ALP</td>
+                    <td>Laptop Gamer XYZ Modelo Alpha - Core i7, 16GB RAM, 1TB SSD, RTX 4060</td>
+                    <td>1</td>
+                    <td>$1250.00</td>
+                    <td>$1250.00</td>
+                </tr>
+                <tr>
+                    <td>MON-CUR-27</td>
+                    <td>Monitor Curvo LED 27" Full HD, 165Hz, 1ms</td>
+                    <td>1</td>
+                    <td>$280.00</td>
+                    <td>$280.00</td>
+                </tr>
+                <tr>
+                    <td>TEC-MEC-RGB</td>
+                    <td>Teclado Mecánico Retroiluminado RGB, Switch Blue</td>
+                    <td>1</td>
+                    <td>$75.00</td>
+                    <td>$75.00</td>
+                </tr>
+                <tr>
+                    <td>MOU-ERG-PRO</td>
+                    <td>Mouse Ergonómico Inalámbrico Pro, 8 Botones Programables</td>
+                    <td>1</td>
+                    <td>$45.00</td>
+                    <td>$45.00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="total-label">SUBTOTAL:</td>
+                    <td class="total-monto">$1650.00</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="total-label">IVA (15%):</td>
+                    <td class="total-monto">$247.50</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="total-label">TOTAL:</td>
+                    <td class="total-monto">$1897.50</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table class="tabla-adicional">
+            <thead>
+                <tr>
+                    <th>Información Adicional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p><strong>Forma de Pago:</strong> Transferencia Bancaria / Tarjeta de Crédito</p>
+                        <p><strong>Observaciones:</strong> Garantía de productos: 1 año contra defectos de fábrica. Validez de la proforma: 7 días. Precios incluyen IVA.</p>
+                        <p><strong>Datos Bancarios:</strong> Banco Pichincha - Cta. Corriente: 2100XXXXXX - A nombre de: ValleTech Soluciones Tecnológicas - RUC: 1791234567001</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="pie-pagina">
+            <p>¡Gracias por preferir ValleTech Soluciones Tecnológicas!</p>
+            <p>Visítanos en nuestra tienda o en: www.valletech.ec</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.factura-contenedor {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px; /* Espacio entre tablas */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+thead th {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos específicos para cada tabla para diferenciarlas */
+
+/* Tabla Empresa */
+.tabla-empresa {
+    border: 2px solid #3498db; /* Borde azul */
+}
+.tabla-empresa thead th {
+    background-color: #3498db; /* Azul */
+}
+.tabla-empresa tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Gris claro para filas pares */
+}
+.tabla-empresa td:first-child {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Tabla Cliente */
+.tabla-cliente {
+    border: 2px solid #2ecc71; /* Borde verde */
+}
+.tabla-cliente thead th {
+    background-color: #2ecc71; /* Verde */
+}
+.tabla-cliente tbody tr:nth-child(odd) {
+    background-color: #e8f8f5; /* Verde muy claro para filas impares */
+}
+.tabla-cliente td:first-child {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Tabla Productos */
+.tabla-productos {
+    border: 2px solid #e67e22; /* Borde naranja */
+}
+.tabla-productos thead th {
+    background-color: #e67e22; /* Naranja */
+    text-align: center;
+}
+.tabla-productos tbody td {
+    text-align: center;
+}
+.tabla-productos tbody tr:hover {
+    background-color: #fdf2e9; /* Naranja muy claro al pasar el mouse */
+}
+.tabla-productos tfoot td {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.tabla-productos .total-label {
+    text-align: right;
+    color: #c0392b; /* Rojo oscuro para "TOTAL:" */
+}
+.tabla-productos .total-monto {
+    text-align: center;
+    color: #c0392b;
+    background-color: #f9e79f; /* Amarillo claro para el monto total */
+}
+
+
+/* Tabla Adicional */
+.tabla-adicional {
+    border: 2px solid #8e44ad; /* Borde morado */
+}
+.tabla-adicional thead th {
+    background-color: #8e44ad; /* Morado */
+}
+.tabla-adicional p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+.tabla-adicional strong {
+    color: #7d3c98;
+}
+
+/* Pie de Página */
+.pie-pagina {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed #95a5a6; /* Gris discontinuo */
+    font-size: 0.9em;
+    color: #7f8c8d; /* Gris */
+}
+
+.pie-pagina p {
+    margin: 5px 0;
+}
